@@ -1,0 +1,115 @@
+
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+:root {
+    --first-color: #F8F7F6);
+    --second-color: #8d344e;
+    --third-color: #d14437;
+    --first-font: 'League Gothic', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--first-color);
+    color: black;
+}
+
+.header {
+    padding: 2% 0 0 60%;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #8d344e;
+    text-decoration: none;
+}
+
+.poster {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.jennifer,
+.garner {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: inline;
+}
+
+.jennifer {
+    color: #8d344e;
+}
+
+.garner {
+    color: #d14437;
+}
+
+.movie_title {
+    text-align: center;
+}
+
+.movie_title {
+    text-align: left;
+}
+
+.title {
+    width: 400px; /* Adjust width as needed */
+    text-align: left;
+}
+
+.jennifer_garner {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Added margin to separate image from text */
+}
+
+.video {
+    text-align: center;
+    padding: 5% 20px;
+}
+
+.trailer_title {
+    padding: 2% 0% 0% 10%;
+    color: #8d344e; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.video iframe {
+    vertical-align: middle;
+}
+
+.synopsis{
+align-items: center;
+padding: 2% 5% 5% 5%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.synopsis h1{
+    color: #d14437;
+}
