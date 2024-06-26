@@ -6,5 +6,9 @@ I created this website for an HTML assignment during my first semester in colleg
 
 Check out the project here: [Movie Poster](https://movieposter-six.vercel.app/index.html)
 
+## **Tools used:**
+![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+
 Created by **Pamela Alves Musialak**
   - [LinkedIn](https://www.linkedin.com/in/pamusialak/)
